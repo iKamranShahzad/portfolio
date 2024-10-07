@@ -10,7 +10,7 @@ function App() {
       {" "}
       <IntroSection />
       {/* Right Section: Static Area with Header */}
-      <div className="w-full lg:h-screen lg:w-1/2 lg:overflow-y-auto">
+      <div className="w-full bg-[url('/cornered-stairs.svg')] bg-cover bg-center bg-no-repeat lg:h-screen lg:w-1/2 lg:overflow-y-auto">
         {/* Header is inside the right section for larger screens */}
         <div className="lg:block">
           <Header />
