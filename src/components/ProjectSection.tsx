@@ -8,7 +8,7 @@ function ProjectSection() {
         Projects — I have built
       </h2>
 
-      <div className="mt-4 grid gap-8">
+      <div className="3xl:grid-cols-5 mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

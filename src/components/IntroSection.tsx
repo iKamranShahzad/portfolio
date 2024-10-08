@@ -16,17 +16,17 @@ function IntroSection() {
   };
 
   const slideInWithFade = {
-    hidden: { opacity: 0, y: 50 },
+    hidden: { opacity: 0, x: -50 },
     visible: {
       opacity: 1,
-      y: 0,
-      transition: { duration: 0.6 },
+      x: 0,
+      transition: { duration: 0.4 },
     },
   };
 
   return (
     <motion.div
-      className="relative w-full flex-shrink-0 bg-[url('/slanted-gradient.svg')] bg-cover bg-center bg-no-repeat p-4 sm:p-6 lg:w-1/2 lg:p-8"
+      className="relative w-full flex-shrink-0 bg-[url('/slanted-gradient.svg')] bg-cover bg-center bg-no-repeat p-4 sm:p-6 lg:w-[45%] lg:p-8"
       initial="hidden"
       animate="visible"
       variants={container}
@@ -78,9 +78,9 @@ function IntroSection() {
             I build things for the web.
           </h2>
           <p className="mt-2 text-sm text-gray-300 sm:mt-4 sm:text-base lg:text-lg">
-            I'm a full-stack developer specializing in building exceptional
-            websites and web applications. Currently, I'm focused on crafting
-            responsive, user-centered products.
+            I'm a web developer specializing in building exceptional websites
+            and web applications. Currently, I'm focused on crafting responsive,
+            user-centered products.
           </p>
         </motion.div>
 
