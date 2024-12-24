@@ -21,7 +21,7 @@ function AboutSection() {
           Right now, my primary focus is on developing scalable, efficient
           systems and creating smooth, user-centric digital experiences.{" "}
           <span className="font-semibold text-blue-400">
-            Here are some technologies I’ve been working with recently:
+            Here are some technologies I&apos;ve been working with recently:
           </span>
         </p>
         <TechStack />

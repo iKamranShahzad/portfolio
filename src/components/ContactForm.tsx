@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-hot-toast"; // Import toast from react-hot-toast
+import { toast } from "react-hot-toast";
 
 const ContactForm = () => {
   const [isLoading, setIsLoading] = useState(false);

@@ -89,10 +89,16 @@ function IntroSection() {
             variants={slideInWithFade}
           >
             <motion.a
-              href="#projects"
+              href="#"
               className="inline-block rounded-md border border-blue-400 px-4 py-2 text-sm text-blue-400 transition-colors hover:bg-blue-500 hover:font-semibold hover:text-gray-900 sm:px-6 sm:py-3 sm:text-base"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/projects/CV - Kamran Shahzad.pdf";
+                link.download = "Kamran_Shahzad_CV.pdf";
+                link.click();
+              }}
             >
               Take a look at my CV!
             </motion.a>

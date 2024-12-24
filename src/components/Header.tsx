@@ -32,7 +32,7 @@ const Header = () => {
     >
       <div className="mx-auto flex max-w-3xl items-center justify-between">
         <motion.a
-          onClick={() => scrollToSection("contact")} // Updated to use smooth scroll function
+          onClick={() => scrollToSection("contact")}
           className="cursor-pointer rounded-md bg-gradient-to-r from-slate-700 to-purple-900 px-4 py-2 text-sm font-medium text-white shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg"
           variants={buttonVariants}
           whileHover="hover"

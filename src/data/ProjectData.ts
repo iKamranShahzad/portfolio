@@ -30,6 +30,21 @@ export const projects = [
     liveLink: "https://ikamranshahzad.vercel.app/",
     technologies: ["ReactJS", "Tailwind", "Framer Motion", "EmailJS"],
   },
+  {
+    image: "/projects/BlinkSend.webp",
+    title: "BlinkSend - File Sharing",
+    description:
+      "A file sharing web application that allows users to send files securely.",
+    liveLink: "https://blinksend.vercel.app/",
+    technologies: [
+      "Next.js",
+      "ReactJS",
+      "Tailwind",
+      "Lucide React",
+      "WebRTC",
+      "NodeJS",
+    ],
+  },
 
-  // UPCOMING!
+  // will add more
 ];
