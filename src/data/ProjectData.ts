@@ -23,11 +23,11 @@ export const projects = [
     ],
   },
   {
-    image: "/projects/portfolio.webp",
-    title: "Personal Portfolio",
+    image: "/alternate-picture.webp",
+    title: "Personal Portfolio v2",
     description:
       "Personal portfolio built with React, featuring subtle Framer Motion animations.",
-    liveLink: "https://ikamranshahzad.vercel.app/",
+    liveLink: "https://kamranshahzad.vercel.app/",
     technologies: ["ReactJS", "Tailwind", "Framer Motion", "EmailJS"],
   },
   {
