@@ -2,7 +2,7 @@
 
 ![LOGO](https://github.com/iKamranShahzad/portfolio-v2/blob/main/public/PF.webp)
 
-This is the personal portfolio website of Kamran Shahzad, showcasing his skills, projects, and contact information. The website is designed to provide a smooth and user-centric digital experience.
+This is my personal portfolio website, showcasing my skills, projects, and contact information. The website is designed to provide a smooth and user-friendly digital experience.
 
 ## Tech Stack
 
@@ -21,17 +21,17 @@ This is the personal portfolio website of Kamran Shahzad, showcasing his skills,
 
 ## Features
 
-- **Responsive Design**: The website is fully responsive and works on all devices.
-- **Smooth Animations**: Subtle animations using Framer Motion enhance the user experience.
-- **Contact Form**: Users can send messages directly through the contact form.
-- **Tech Stack Display**: Showcases the technologies Kamran has been working with recently.
+- **Responsive Design**: Fully responsive and works seamlessly across all devices.
+- **Smooth Animations**: Subtle animations powered by Framer Motion to enhance the user experience.
+- **Contact Form**: Send messages directly through the contact form.
+- **Tech Stack Display**: Showcases the technologies I’ve been working with recently.
 
 ### Sections
 
-- **Intro Section**: Introduction and a brief about Kamran Shahzad.
-- **About Section**: Detailed information about Kamran's background and skills.
-- **Project Section**: A showcase of projects Kamran has worked on.
-- **Contact Section**: A form to get in touch with Kamran.
+- **Intro Section**: A quick introduction about me.
+- **About Section**: Detailed information about my background and skills.
+- **Project Section**: A showcase of projects I’ve worked on.
+- **Contact Section**: A form to easily get in touch with me.
 
 ## Authors
 
